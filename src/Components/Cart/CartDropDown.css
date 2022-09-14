@@ -1,0 +1,83 @@
+.cart-drop-down-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  position: absolute;
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.212);
+  top: 62px;
+  right: -20px;
+  max-height: 44vh;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-right: 1rem;
+}
+
+.no-items-in-cart {
+  width: 50rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.cart-drop-down-item-container {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  width: 70rem;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.cart-drop-down-item-container:not(:nth-last-child(2)) {
+  border-bottom: 1px solid white;
+}
+
+.cart-drop-down-item-container:hover {
+  background-color: lightblue;
+}
+
+.item-title {
+  justify-self: flex-start;
+  width: 50rem;
+}
+
+.item-quantity-and-price-container {
+  display: flex;
+}
+
+.item-button-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-add-and-remove-one-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cart-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn-remove-all {
+  width: 50px;
+  align-self: center;
+}
+
+.total-price {
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem 2rem;
+  font-size: 3rem;
+  width: 102%;
+  position: sticky;
+  bottom: 0;
+  background: lightgray;
+  border-top: 1px solid white;
+}

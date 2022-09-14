@@ -1,0 +1,31 @@
+.btn-cart {
+  position: relative;
+  cursor: pointer;
+}
+.cart {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  /* color: lightblue; */
+}
+
+.icon {
+  fill: lightblue;
+}
+.icon:hover {
+  fill: white;
+}
+
+.items-in-cart {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 5px;
+  right: -10px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

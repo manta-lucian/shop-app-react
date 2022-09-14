@@ -1,0 +1,30 @@
+.container-home {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 2rem;
+  background-color: azure;
+  height: 100vh;
+}
+.heading-text-home {
+  font-size: 6rem;
+  align-self: center;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  box-shadow: 0rem 1rem 0 black;
+  width: 50%;
+  text-align: center;
+}
+.content-home {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.secondary-heading-text-home {
+  margin: 0 0 2rem 2rem;
+  width: min-content;
+  box-shadow: 0 0.5rem black;
+}
